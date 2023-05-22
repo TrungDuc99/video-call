@@ -25,7 +25,8 @@
     "tailwindcss": "^2.2.4"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "PORT=3001 react-scripts start",
+   
     "kill-start": "sudo kill -9 `sudo lsof -t -i:3001` && yarn start",
     "build": "react-scripts build",
     "test": "react-scripts test",
